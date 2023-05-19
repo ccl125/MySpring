@@ -12,7 +12,7 @@ import javax.annotation.Resource;
  * @Date 2023/5/13 22:16
  * @Description
  */
-@Configuration
+//@Configuration
 public class InterceptorConfig implements WebMvcConfigurer {
 
     @Resource

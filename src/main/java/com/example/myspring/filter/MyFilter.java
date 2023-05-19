@@ -16,7 +16,7 @@ import java.io.IOException;
  * @Description
  */
 @Slf4j
-@Component
+//@Component
 @Order(1)
 public class MyFilter implements Filter {
     @Override

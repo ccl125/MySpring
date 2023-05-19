@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class MyTest {
 
     @GetMapping("/hello")
-//    @MyAnnotation
+    @MyAnnotation
     public String hello() {
         log.info("==========方法执行=========");
         return "Hello World";
