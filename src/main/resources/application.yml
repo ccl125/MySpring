@@ -1,0 +1,6 @@
+spring:
+  cloud:
+    sentinel:
+      transport:
+        port: 8099
+        dashboard: localhost:8080
