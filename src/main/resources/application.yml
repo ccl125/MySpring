@@ -6,3 +6,9 @@ elasticsearch:
   connTimeout: 3000
   socketTimeout: 5000
   connectionRequestTimeout: 500
+spring:
+  cloud:
+    sentinel:
+      transport:
+        port: 8099
+        dashboard: 127.0.0.1:8080
